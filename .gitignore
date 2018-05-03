@@ -1,13 +1,13 @@
-# dependencies 
-node_modules
+# See https://help.github.com/ignore-files/ for more about ignoring files.
 
-# testing 
-coverage
+# dependencies
+/node_modules
+
+# testing
+/coverage
 
 # production
-build/
-compiled/
-dist/
+/build
 
 # misc
 .DS_Store
@@ -16,6 +16,6 @@ dist/
 .env.test.local
 .env.production.local
 
-# API KEYS 
-src/config/API_KEY
-compiled/config/API_KEY
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
