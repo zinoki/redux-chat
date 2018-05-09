@@ -20,4 +20,4 @@ Sidebar.PropTypes = {
   ).isRequired
 }
 
-export default Sidebar; 
+export default Sidebar;   
