@@ -8,7 +8,7 @@ const Message = ({message, author}) => (
 
 )
 
-Message.PropTypes = {
+Message.propTypes = {
   message: PropTypes.string.isRequired,
   author: PropTypes.string.isRequired
 }
