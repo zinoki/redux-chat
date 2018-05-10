@@ -17,7 +17,7 @@ const setupSocket = (dispatch, username) => {
         dispatch(messageReceived(data.message, data.author));
         break;
       case types.ADD_USER:
-        dispatch(adduser(data.name));
+        dispatch(addUser(data.name));
         break;
       case types.USERS_LIST:
         dispatch(populateUsersList(data.users));
